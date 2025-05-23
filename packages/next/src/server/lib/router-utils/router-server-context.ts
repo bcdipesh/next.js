@@ -25,6 +25,8 @@ export type RouterServerContext = Record<
     nextConfig?: NextConfigComplete
     // whether running in custom server mode
     isCustomServer?: boolean
+    // whether test proxy is enabled
+    experimentalTestProxy?: boolean
   }
 >
 

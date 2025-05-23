@@ -676,6 +676,7 @@ export async function initialize(opts: {
     nextConfig: config,
     hostname: handlers.server.hostname,
     revalidate: handlers.server.revalidate.bind(handlers.server),
+    experimentalTestProxy: renderServerOpts.experimentalTestProxy,
   }
 
   const logError = async (
